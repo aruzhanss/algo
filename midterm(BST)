@@ -1,0 +1,32 @@
+
+   #include<iostream>
+using namespace std ; 
+class Node{
+    public: 
+    int data;
+    Node *right ;
+    Node *left ;
+    
+    Node(int data){
+        right == NULL ;
+        left == NULL ; 
+    }
+}; 
+class BST{
+    node *root ; 
+    BST(){
+      root == NULL ; 
+    }
+   void insert(int data, Node *root){
+        if(root == NULL){
+            new Node =
+        }
+          else if(root->data > data){
+                
+                insert(data, root->left)
+          }else if(root->data < data){
+                insert(data, root->right)
+          }
+    }
+        
+}
